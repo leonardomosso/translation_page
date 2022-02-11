@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from "axios";
-import AlternativesPages from '../components/Alternatives';
-import LoadingComponent from '../components/LoadingComponent';
+import AlternativesPages from '../../components/Alternatives';
+import LoadingComponent from '../../components/LoadingComponent';
 
 const InitialPage = () => {
 
