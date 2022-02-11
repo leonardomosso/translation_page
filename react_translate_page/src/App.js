@@ -1,11 +1,16 @@
 import React from "react";
 import InitialPage from "./pages/InitialPage";
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 
 
 function App() {
   return (
     <div className="App">
-      <InitialPage />
+        <Router>
+        <Routes> 
+          <Route path='/' element={<InitialPage/>}/>
+        </Routes>
+      </Router>
     </div>
   );
 }
